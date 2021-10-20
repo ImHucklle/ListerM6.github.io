@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0804;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li{
+  font-family:'Didot', serif;
+  font-size: medium;
+}
+
+.navbar ul li a{
+  color: #c2c1c7;
+  padding: 10px 25px;
+  transition: all.3s ease;
+}
+
+.navbar ul li a:hover{
+  background-color: #c2c1c7;
+  color: #0d0804;
+  box-shadow: #c2c1c7;
+}
+
+/* Home */
+#home{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 260px;
+  color: white;
+}
+
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../img/pawel-czerwinski-8RrXjMCtL5g-unsplash\ \(1\).jpg);
+  height: 320px;
+  width: 100%;
+  z-index: -1;
+  opacity: 1.0;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 13%;
+  left: 10%;
+}
+
+.headings{
+  font-family:'Didot', serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+/* about */
+#about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#pic{
+  display: flex;
+}
+
+#pic img{
+  width: 575px;
+  height: 425px;
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 20px;
+}
+
+#intro h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}

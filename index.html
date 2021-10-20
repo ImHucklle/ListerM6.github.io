@@ -7,44 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Myles Lister's developer portfolio for devCodeCamp">
     <meta name="author" content="Myles Nathaniel Lister">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<header>
-    <center>
-    <h1>Myles Lister's Portfolio</h1>
-    </center>
-</header>
-
-<ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact Me</a></li>
-    
-</ul>
-
-<center>
-    <div><i>About Me</i></div>
-     <p>I started my quest to become devloper a month ago.....</p>
-</center>
-
 <body>
-    <h2><i>Projects</i></h2>
-    <p>Past, Present and Future Projects</p>
+    <nav class ="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings"> Hello.. <br> I'm Myles</h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings">About Me</h1>
+            <img src="./img/Portfolio Main.jpeg" alt="Family photo">
+            <div id="intro">
+                <h2>Myles Lister</h2>
+                <p>I’m family man of a future wife and father of a daughter and son. I’m a Marine Corp veteran. I’m a student of a full stack development program. I chose to pursue this career field to better myself and my family but also I want to create and innovate for world. Technology is constantly changing every day and I want to contribute to that change.
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 
 <footer>
-    <h6>Contact Me</h6>
-    <form>
-        Name:   <input type="text" name="name" value=" 'John Smith..' "><br>
-        Company:<input type="text" name="name" value=" 'Company Name' "><br>
-        Phone:  <input type="tel" id="phone" name="phone" value= "(123) 456-7890"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                requird><br>
-        Email:  <input type="text" name="email" value="company@email.com"><br>
-        <input type="button" value="Submit">
-    </form>
+   
 </footer>
 
 </html>
